@@ -42,3 +42,27 @@ body{
     border-left: #01579b 4px solid;
     color: #03a9f4;
 }
+#two-pngs{
+    text-align: center;
+    margin-top: 3%;
+}
+#two-png .png{
+    width: 15%;
+    height: 300px;
+    margin-right: 4%;
+    display: inline-block;
+    background-color: red;
+    vertical-align: bottom
+    
+}
+#two-png .png wz{
+    text-align: center;
+    line-height: 550px;
+}
+#bottom-txt{
+    font-size: 30px;
+    font-weight: bold;
+    color: #03a9f4;
+    margin-top: 60px;
+    margin-left: 2%;
+}
