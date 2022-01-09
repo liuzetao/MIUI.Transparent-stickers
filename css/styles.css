@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #f1f1f1;
 }
 @font-face{
     font-family:'myFirstFont';
@@ -50,7 +51,10 @@ body{
     border-radius: 5px;
     width: 40%;
     height: 250px;
-    background-size: 100% 100%;"
+    background-size: 100% 100%;
+}
+#three-table .two-td:hover{
+    box-shadow: 2px 2px 10px 2px #03a9f4;  
 }
 #three-table .ax{
     width: 100%;
