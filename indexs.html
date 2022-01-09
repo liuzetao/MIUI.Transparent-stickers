@@ -4,56 +4,78 @@
 		<meta charset="UTF-8"> 
 		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1"> 
 		<title>小部件透明图片</title> 
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/styles.css">
 	</head> 
-	<body style="margin: 0;padding: 0;"> 
-		<div style="width: 100%;background-color: #03a9f4;height: 50px;box-shadow: 2px 2px 10px 2px #03a9f4;"> 
-        	<span style="color: #ffffff;line-height: 50px;margin-left: 2%;font-size: 20px;font-family: 'myFirstFont';">小部件透明图片</span> 
-            <span style="color: #ffffff;line-height: 50px;margin-right: 2%;font-size: 20px;font-family: 'myFirstFont';float: right;">反馈</span>
-		</div>  
-      
-      	<div style="margin-top: 40px;">
-         	<span style="margin-left: 2%;font-size: 20px;border-left: #03a9f4 4px solid;color: #03a9f4;font-family: myFirstFont;">&nbsp;动漫&nbsp;</span>
-        </div>
-        
-        <div style="width: 100%;margin-top: 4%;">
-        	<table style="width: 90%;margin: auto;"> 
+	<body> 
+		<div id="one-txt"> 
+        	<span class="txt-left">小部件透明图片</span> 
+            <span class="txt-right">反馈</span>
+		</div>       
+      	<div id="two-txt">
+         	<span class="txt-dm">&nbsp;动漫&nbsp;</span>
+        </div>      
+        <div id="three-table">
+        	<table class="one-tb"> 
             	<tr>
-                	<td style="box-shadow: 2px 2px 10px 2px #666666;border-radius: 5px;width: 40%;height: 250px;background-image: url(img/dm/dm1.png);background-size: 100% 100%;"><a href="img/dm/dm1.png" style="width: 100%;height: 250px;display: block;text-decoration: none;">&nbsp;</a></td>
-                    <td style="width: 5%;"></td>
-                   	<td style="box-shadow: 2px 2px 10px 2px #666666;border-radius: 5px;width: 40%;height: 250px;background-image: url(img/dm/dm3.png);background-size: 100% 100%;"><a href="img/dm/dm3.png" style="width: 100%;height: 250px;display: block;text-decoration: none;">&nbsp;</a></td>
+                	<td class="two-td" style="background-image: url(img/dm/dm1.png);"><a href="img/dm/dm1.png" class="ax">&nbsp;</a></td>
+                    <td class="td-diss"></td>
+                    <td class="two-td" style="background-image: url(img/dm/dm2.png);"><a href="img/dm/dm2.png" class="ax">&nbsp;</a></td>
                 </tr>
                 <tr style="height: 20px;"></tr>
                 <tr>
-                	<td style="box-shadow: 2px 2px 10px 2px #666666;border-radius: 5px;width: 40%;height: 250px;background-image: url(img/dm/dm4.png);background-size: 100% 100%;"><a href="img/dm/dm4.png" style="width: 100%;height: 250px;display: block;text-decoration: none;">&nbsp;</a></td>
-                    <td style="width: 5%;"></td>
-                   	<td style="box-shadow: 2px 2px 10px 2px #666666;border-radius: 5px;width: 40%;height: 250px;background-image: url(img/dm/dm5.png);background-size: 100% 100%;"><a href="img/dm/dm5.png" style="width: 100%;height: 250px;display: block;text-decoration: none;">&nbsp;</a></td>
+                	<td class="two-td" style="background-image: url(img/dm/dm3.png);"><a href="img/dm/dm3.png" class="ax">&nbsp;</a></td>
+                    <td class="td-diss"></td>
+                    <td class="two-td" style="background-image: url(img/dm/dm4.png);"><a href="img/dm/dm4.png" class="ax">&nbsp;</a></td>
+                </tr>
+                <tr style="height: 20px;"></tr>
+                <tr>
+                	<td class="two-td" style="background-image: url(img/dm/dm5.png);"><a href="img/dm/dm5.png" class="ax">&nbsp;</a></td>
+                    <td class="td-diss"></td>
+                    <td class="two-td" style="background-image: url(img/dm/dm6.png);"><a href="img/dm/dm6.png" class="ax">&nbsp;</a></td>
                 </tr>
             </table>
         </div>
         
-        	<div style="margin-top: 40px;">
-         	<span style="margin-left: 2%;font-size: 20px;border-left: #03a9f4 4px solid;color: #03a9f4;font-family: 'myFirstFont';">&nbsp;游戏&nbsp;</span>
-        </div>
-        
-        <div style="width: 100%;margin-top: 4%;">
-        	<table style="width: 90%;margin: auto;"> 
-            	<tr>
-                	<td style="box-shadow: 2px 2px 10px 2px #666666;border-radius: 5px;width: 40%;height: 250px;background: red;"></td>
-                    <td style="width: 5%;"></td>
-                   	<td style="box-shadow: 2px 2px 10px 2px #666666;border-radius: 5px;width: 40%;height: 250px;background: blue;"></td>
-                </tr>
-                <tr style="height: 20px;"></tr>
-                <tr>
-                	<td style="box-shadow: 2px 2px 10px 2px #666666;border-radius: 5px;width: 40%;height: 250px;background: red;"></td>
-                    <td style="width: 5%;"></td>
-                   	<td style="box-shadow: 2px 2px 10px 2px #666666;border-radius: 5px;width: 40%;height: 250px;background: blue;"></td>
-                </tr>
-            </table>
-        </div>
+        <div id="two-txt">
+            <span class="txt-dm">&nbsp;游戏人物&nbsp;</span>
+       </div>      
+       <div id="three-table">
+           <table class="one-tb"> 
+               <tr>
+                   <td class="two-td" style="background-image: url(img/game/yx1.png);"><a href="img/game/yx1.png" class="ax">&nbsp;</a></td>
+                   <td class="td-diss"></td>
+                   <td class="two-td" style="background-image: url(img/game/yx2.png);"><a href="img/game/yx2.png" class="ax">&nbsp;</a></td>
+               </tr>
+               <tr style="height: 20px;"></tr>
+               <tr>
+                   <td class="two-td" style="background-image: url(img/game/yx3.png);"><a href="img/game/yx3.png" class="ax">&nbsp;</a></td>
+                   <td class="td-diss"></td>
+                   <td class="two-td" style="background-image: url(img/game/yx4.png);"><a href="img/game/yx4.png" class="ax">&nbsp;</a></td>
+               </tr>
+               <tr style="height: 20px;"></tr>
+               <tr>
+                   <td class="two-td" style="background-image: url(img/game/yx5.png);"><a href="img/game/yx5.png" class="ax">&nbsp;</a></td>
+                   <td class="td-diss"></td>
+                   <td class="two-td" style="background-image: url(img/game/yx6.png);"><a href="img/game/yx6.png" class="ax">&nbsp;</a></td>
+               </tr>
+           </table>
+       </div>
         
         <div style="width: 100%;height: 200px;background-color: #03a9f4;margin-top: 10%;">
         	<span style="font-size: 25px;color: #ffffff;display: inline-block;margin-top: 5%;margin-left: 2%;">移动端测试页面</span><br><button>index</button>
         </div>
+
+        <script type="text/javascript">
+            var system ={};  
+               var p = navigator.platform;       
+               system.win = p.indexOf("Win") == 0;  
+               system.mac = p.indexOf("Mac") == 0;  
+               system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+               if(system.win||system.mac||system.xll){//如果是电脑跳转到
+                       window.location.href="index.html";  
+               }else{  //如果是手机,跳转到
+                      window.location.href="indexs.html";  
+               }
+        </script>
 	</body>
 </html>
