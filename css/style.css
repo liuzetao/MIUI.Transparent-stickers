@@ -3,6 +3,9 @@ body{
     padding: 0;
     background-color: #f1f1f1;
 }
+a{
+    text-decoration: none;
+}
 @font-face{
     font-family:'myFirstFont';
     src:url('../font/fz.ttf') format('truetype');
@@ -12,8 +15,8 @@ body{
     src:url('../font/zz.ttf') format('truetype');
 }
 #one-txt{
-    box-shadow: 2px 2px 10px 2px #03a9f4;
-    background-color: #03a9f4;
+    box-shadow: 2px 2px 10px 2px #ff3d00;
+    background-color: #ff3d00;
     width: 100%;
     height: 45px;
     position: fixed;
@@ -41,14 +44,14 @@ body{
     margin: 80px auto;
 }
 #two-png .two-txt{
-    font-family:'myFirstFont';
+    font-family:'myFirstFonts';
     margin-left: 1%;
     margin-top: 20px;
     display: block;
     font-weight: bold;
     font-size: 22px;
-    border-left: #01579b 4px solid;
-    color: #03a9f4;
+    border-left: #ff3d00 4px solid;
+    color: #ff3d00;
 }
 
 #two-png .two-table{
@@ -61,11 +64,27 @@ body{
     border-radius: 10px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    box-shadow: 2px 2px 10px 2px #666666;
+    box-shadow: 2px 1px 10px 2px #666666;
     
 }
 #two-png .two-background:hover{
-    box-shadow: 2px 2px 10px 2px #01579b;
+    box-shadow: 2px 2px 10px 2px #ff3d00;
+}
+#two-png .two-save{
+    text-align: center;
+    line-height: 60px;
+}
+#two-png .two-save xz{
+    background-color: #ff3d00;
+    padding: 4%;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'myFirstFont';
+}
+#two-png .two-save xz:hover{
+    background-color: #ffffff;  
+    color: #000000;
+
 }
 #two-png .two-diss{
     width: 4%; 
@@ -73,13 +92,12 @@ body{
 .two-table .two-background .ax{
     width: 100%;
     height: 250px;
-    display: block;
-   
+    display: block; 
     text-decoration: none;
 }
 #bottom-txt{
     width: 100%;
-    background-color: #03a9f4;
+    background-color: #ff3d00;
     height: 150px;
     margin-top: 5%;
     line-height: 40px;
