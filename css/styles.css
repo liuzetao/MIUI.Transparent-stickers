@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
+    background-image: url(../img/R-CS.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 @font-face{
     font-family:'myFirstFont';
