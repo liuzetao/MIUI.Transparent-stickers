@@ -11,9 +11,9 @@ body{
 }
 #one-txt{
     width: 100%;
-    background-color: #ff3d00;
+    background-color: #ff8a65;
     height: 50px;
-    box-shadow: 2px 2px 10px 2px #ff3d00;
+    box-shadow: 2px 2px 10px 2px #ff8a65;
     position: fixed;
     top: 0;
 }
@@ -38,8 +38,8 @@ body{
 #two-txt .txt-dm{
     margin-left: 2%;
     font-size: 20px;
-    border-left: #ff3d00 4px solid;
-    color: #ff3d00;
+    border-left: #ff8a65 4px solid;
+    color: #ff8a65;
     font-family: myFirstFont;
 }
 #three-table{
@@ -58,7 +58,7 @@ body{
     background-size: 100% 100%;
 }
 #three-table .two-td:hover{
-    box-shadow: 2px 2px 10px 2px #ff3d00;  
+    box-shadow: 2px 2px 10px 2px #ff8a65;  
 }
 #three-table .ax{
     width: 100%;
@@ -74,7 +74,7 @@ body{
     line-height: 60px;
 }
 #three-table .two-saves xz{
-    background-color: #ff3d00;
+    background-color: #ff8a65;
     padding: 5%;
     border-radius: 5px;
     color: #ffffff;
