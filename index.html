@@ -2,124 +2,139 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Disposition" content="attachment;">
-    <link rel="icon" href="img/logos.png">
-    <link rel="stylesheet" href="css/style.css">
-    <title>MIUI 13 小部件透明图片</title> 
+    <title>My wallpaper</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        #one-txt{
+            background-image: linear-gradient(to left, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+            width: 96%;
+            height: 60px;
+            margin: 10px auto;
+            border-radius: 4px;
+            box-shadow: #fecfef 1px 1px 10px 1px;
+        }
+        #one-txt .text{
+            font-size: 18px;
+            font-weight: bolder;
+            color: #ffffff;
+            line-height: 60px;
+            margin-left: 2%;
+        }
+        #one-txt .one-block{
+            width: 100%;
+            height: 30px;
+            margin-top: 5%;
+            display: inline-flexbox;
+            border-left: #fecfef solid 4px;
+        }
+        #one-txt .one-block span{
+            color: #fecfef;
+            line-height: 30px;
+            font-weight: bolder;
+            margin-left: 1%;         
+        }
+        #two-png{
+            width: 100%;
+            display: inline-flex;
+            margin-top: 15%;
+            text-align: center;
+        }
+        #two-png-2{
+            width: 100%;
+            display: inline-flex;
+            margin-top: 5%;
+            text-align: center;
+        }
+        #two-png-3{
+            width: 100%;
+            display: inline-flex;
+            margin-top: 5%;
+            text-align: center;
+        }
+        #two-png .png-1{
+            width: 45%;
+            height: 300px;           
+            margin: auto;
+            background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+            box-shadow: #fdcbf1 1px 1px 10px 1px;
+            border-radius: 5px;
+        }
+        #two-png .png-2{
+            width: 45%;
+            height: 300px;
+            margin: auto;
+            background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+            box-shadow: #fdcbf1 1px 1px 10px 1px;
+            border-radius: 5px;
+        }
+        #two-png-2 .png-3{
+            width: 45%;
+            height: 300px;           
+            margin: auto;
+            background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+            box-shadow: #fdcbf1 1px 1px 10px 1px;
+            border-radius: 5px;
+        }
+        #two-png-2 .png-4{
+            width: 45%;
+            height: 300px;
+            margin: auto;
+            background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+            box-shadow: #fdcbf1 1px 1px 10px 1px;
+            border-radius: 5px;
+        }
+        #two-png-3 .png-5{
+            width: 45%;
+            height: 300px;           
+            margin: auto;
+            background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+            box-shadow: #fdcbf1 1px 1px 10px 1px;
+            border-radius: 5px;
+        }
+        #two-png-3 .png-6{
+            width: 45%;
+            height: 300px;
+            margin: auto;
+            background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+            box-shadow: #fdcbf1 1px 1px 10px 1px;
+            border-radius: 5px;
+        }
+        #two-png .png-1 button{
+            border: none;  
+            background: none;
+            color: #ff9a9e;
+        }
+    </style>
 </head>
 <body>
     <div id="one-txt">
-        <span class="txt">小部件透明图片</span>
-        <span class="txts" onclick="alert('项目部署中...')">帮助</span>
-        <span class="txts" onclick="alert('反馈联系QQ：536439010 \n 反馈请附带截图 ')">反馈</span>
+        <span class="text">My wallpaper</span>
+        <div class="one-block">
+            <span>Test Control and Text</span>     
+        </div>      
     </div>
-
     <div id="two-png">
-        <span class="two-txt">&nbsp;动漫</span>
-        <table class="two-table">
-            <tr>
-                <td class="two-background" style="background-image: url(img/dm/dm1.png);"><a href="img/dm/dm1.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/dm/dm2.png);"><a href="img/dm/dm2.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/dm/dm3.png);"><a href="img/dm/dm3.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/dm/dm4.png);"><a href="img/dm/dm4.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/dm/dm5.png);"><a href="img/dm/dm5.png" class="ax"></a></td>
-            </tr>
-            <tr>
-                <td class="two-save"><a href="img/dm/dm1.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/dm/dm2.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/dm/dm3.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/dm/dm4.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/dm/dm5.png" download=""><xz>下载图片</xz></a></td>
-            </tr>
-            <tr style="height: 30px;"></tr>
-            <tr>
-                <td class="two-background" style="background-image: url(img/dm/dm6.png);"><a href="img/dm/dm6.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/dm/dm7.png);"><a href="img/dm/dm7.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/dm/dm8.png);"><a href="img/dm/dm8.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/dm/dm9.png);"><a href="img/dm/dm9.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/dm/dm10.png);"><a href="img/dm/dm10.png" class="ax"></a></td>
-            </tr>
-            <tr>
-                <td class="two-save"><a href="img/dm/dm6.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/dm/dm7.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/dm/dm8.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/dm/dm9.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/dm/dm10.png" download=""><xz>下载图片</xz></a></td>
-            </tr>
-            
-        </table>
-        <span class="two-txt">&nbsp;游戏人物</span>
-        <table class="two-table">
-            <tr>
-                <td class="two-background" style="background-image: url(img/game/yx1.png);"><a href="img/game/yx1.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/game/yx2.png);"><a href="img/game/yx2.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/game/yx3.png);"><a href="img/game/yx3.png" class="ax"></a></td>
-                <td class="two-diss"></td>
-                <td class="two-background" style="background-image: url(img/game/yx4.png);"><a href="img/game/yx4.png" class="ax"></a> </td>
-                <td class="two-diss"></td>
-                <td class="two-background"></td>
-            </tr>
-            <tr>
-                <td class="two-save"><a href="img/game/yx1.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/game/yx2.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/game/yx3.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/game/yx4.png" download=""><xz>下载图片</xz></a></td>
-                <td class="two-diss"></td>
-                <td class="two-save"><a href="img/game/yx5.png" download=""><xz>下载图片</xz></a></td>
-            </tr>
-        </table>
-    <div id="bottom-txt">
-        &nbsp;&nbsp;当前处于测试页面！！<br>&nbsp;&nbsp;此次上传将Span使用Table和Td进行替代，可以点击图片进行预览了
-        <br>
-        <button style="margin-left: 2%;"><a href="indexs.html">访问移动端</a></button>
+        <div class="png-1">
+            <button>Download images</button>
+        </div>
+        <div class="png-2">
+        </div>
     </div>
-
-    <script type="text/javascript">
-        var system ={};  
-           var p = navigator.platform;       
-           system.win = p.indexOf("Win") == 0;  
-           system.mac = p.indexOf("Mac") == 0;  
-           system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
-           if(system.win||system.mac||system.xll){                  
-           }else{ 
-                  window.location.href="indexs.html";  
-           }
-    </script>
-
-   <script>
-    window.οnlοad=function(){
-     document.οnkeydοwn=function(){
-        var e=window.event||arguments[0];
-          if(e.keyCode==123){
-             window.location.href="https://www.baidu.com"
-              }else if((e.ctrlKey)&&(e.shiftKey)&&(e.keyCode==73)){
-                  window.location.href="https://www.baidu.com"
-              }
-           };
-       } 
-</script>
+    <div id="two-png-2">
+        <div class="png-3">
+        </div>
+        <div class="png-4">
+        </div>
+    </div>
+    <div id="two-png-3">
+        <div class="png-5">
+        </div>
+        <div class="png-6">
+        </div>
+    </div>
 </body>
 </html>
